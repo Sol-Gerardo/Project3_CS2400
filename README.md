@@ -5,4 +5,4 @@ Neil Patrick Reyes - \
 Gerardo Solis - \
 Kenzo Khowdee - \
 Video link - \
-Javadoc start page (index.html) link: \
+Javadoc start page (index.html) link: 

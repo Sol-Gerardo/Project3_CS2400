@@ -104,8 +104,12 @@ class BinaryNode<T>
     * Part of Task 1 */
    /** A Recursive Method in the BinaryNode Class   
     * prints (using post-order traversal) all nodes of the subtree rooted at "this" node */
-   public void postorderTraverse_binaryNodeMethod()
-   {
+   public void postorderTraverse_binaryNodeMethod(BinaryNode<T> node){
+      if(node != null){ //checks if node is empty
+         postorderTraverse_binaryNodeMethod(node.getLeftChild());
+         postorderTraverse_binaryNodeMethod(node.getRightChild());
+         System.out.print(node.getData() + " ");
+      }
    }
    
    /**-------------------------------------------------------------------- 
@@ -113,7 +117,7 @@ class BinaryNode<T>
    /** A Recursive Method in the BinaryNode Class   
     * Computes the height of the subtree rooted at "this" node.
    @return  The height of the subtree rooted at "this" node. */
-   public int getHeight_binaryNodeMethod()
+   public static int getHeight_binaryNodeMethod()
    {  
 	   return 0;
    } // end getHeight

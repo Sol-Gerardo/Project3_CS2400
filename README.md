@@ -1,7 +1,7 @@
 # Project3_CS2400
 Master the Binary Tree structure and its Node representation \
 Understand recursions for tree operations of the BinaryTree class and the BinaryNode class \
-Neil Patrick Reyes - \
+Neil Patrick Reyes - Tasks 1 & 2 + Video recording\
 Gerardo Solis - \
 Kenzo Khowdee - \
 Video link - \
